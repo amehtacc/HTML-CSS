@@ -1,0 +1,69 @@
+body {
+  background-color: #1B1B3299;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+  margin: 0;
+}
+h1, p {
+  text-align: center;
+}
+h1 {
+  margin-top: 50px;
+}
+
+form {
+  width: 40vw;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #1B1B32;
+  padding: 50px;
+  border-radius: 3px;
+}
+label {
+  font-size: 20px;
+  display: block;
+}
+input, select, textarea {
+  width: 100%;
+  border: none;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: grey;
+  height: 40px;
+  padding: 0px 10px;
+  margin: 5px 0px;
+  border-radius: 2px;
+}
+.inline {
+  width: unset;
+  height: unset;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+#recommended label{
+  font-size: 16px;
+  margin: 10px 0px;
+}
+#submit {
+  width: 80%;
+  height: 40px;
+  margin: 0px auto;
+  background-color: #009900;
+  color: white;
+  border: none;
+  display: block;
+  font-size: 20px
+}
+#submit:hover {
+  background-color: #008000;
+}
+fieldset {
+  border: none;
+  margin: 0px 0px 20px 0px;
+}
+#comment {
+  min-height: 100px;
+  padding: 10px;
+}
